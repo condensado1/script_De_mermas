@@ -21,7 +21,7 @@ print("="*70)
 # PASO 2: CARGA Y PREPARACIÓN DE DATOS
 # Cargar el dataset de mermas (ajustar nombre del archivo según corresponda)
 try:
-    data = pd.read_csv('mermas_dataset_optimizado.csv')  # Cambiar por el nombre real de tu archivo
+    data = pd.read_csv('mermas_dataset.csv')  # Cambiar por el nombre real de tu archivo
     print(f"✓ Dataset cargado exitosamente: {data.shape[0]} filas x {data.shape[1]} columnas")
     
 except FileNotFoundError:
